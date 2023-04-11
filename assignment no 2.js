@@ -1,16 +1,16 @@
 
 ///////////////////////////////////task no  1//////////////////'
 
-// function addNumber(num) {
-//     return function(x) {
-//       return num + x;
-//     }
-//   }
+function addNumber(num) {
+    return function(x) {
+      return num + x;
+    }
+  }
   
-//   // Example usage
-//   const add5 = addNumber(5);
-//   console.log(add5(10)); 
-//   console.log(add5(20)); 
+  // Example usage
+  const add5 = addNumber(5);
+  console.log(add5(10)); 
+  console.log(add5(20)); 
 /////////////////////////////////task 2/////////////////
 function searchArray(arr, val) {
   if (arr.length === 0) {
